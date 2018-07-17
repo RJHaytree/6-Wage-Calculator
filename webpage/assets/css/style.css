@@ -1,0 +1,268 @@
+html {
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+    background-color: lightgray;
+}
+
+nav {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transform: .4s;
+}
+
+.nav-content.black {
+    background: rgba(0,0,0,0.8);
+    height: 80px;
+}
+
+nav .nav-content {
+    height: 80px;
+    background-color: darkslategray;
+    opacity: 0.9;
+    width: 100%;
+    padding: 0;
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 20px;
+    transition: .4s;
+    color: #fff;
+}
+
+nav.black .logo {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .4s;
+    font-size: 18px;
+}
+
+.nav-content.black ul li a {
+    color: #fff;
+}
+
+.nav-content.black ul li a.active {
+    color: #000000;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a.active {
+    background-color: mediumspringgreen;
+    color: #000000;
+}
+
+#content-html {
+    padding: 10px;
+}
+
+section.section-1 {
+    width: 100%;
+    height: 100vh;
+    background: url(backgrounds/section-1-2-3-4-5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+section.section-2 {
+    width: 100%;
+    height: 100vh;
+    background: url(backgrounds/section-1-2-3-4-5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+section.section-3 {
+    width: 100%;
+    height: 100vh;
+    background: url(backgrounds/section-1-2-3-4-5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+section.section-4 {
+    width: 100%;
+    height: 100vh;
+    background: url(backgrounds/section-1-2-3-4-5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+section.section-5 {
+    width: 100%;
+    height: 100vh;
+    background: url(backgrounds/section-1-2-3-4-5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.content #text {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.content h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content #limitations {
+    text-align: left;
+}
+
+.content #example {
+    border: darkslategray solid 3px;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content #example p {
+    width: 48%;
+    float: right;
+}
+
+.content #example img {
+    width: 50%;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.content #pros {
+    text-align: left;
+    vertical-align: top;
+}
+
+td {
+    width: 50%;
+}
+
+td img {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkslategrey;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    padding: 30px;
+    padding-top 10px;
+}
+
+.cycle {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.cycle img {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#caption {
+    text-align: center;
+}
+
+#img-1 {
+    margin: 0 auto;
+    width: 50%;
+}
+#img-1 img {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#example-js {
+    font-size: 30px;
+    text-align: center;
+}
+
+#img-2 {
+    margin: 0 auto;
+    width: 30%;
+}
+#img-2 img {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#img-3 {
+    margin: 0 auto;
+    width: 40%;
+}
+#img-3 img {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}

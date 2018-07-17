@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <title>Thelma’s Fascinating Theory | Data Types</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+        <script>
+            
+            $(window).on('scroll', function()  {
+                if($(window).scrollTop()) {
+                    $('.nav-content').addClass('black');
+                }
+                else {
+                    $('.nav-content').removeClass('black');
+                }
+            })
+                        
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <nav>
+            
+                    <div class="nav-content">
+                    
+                        <div class="logo">Thelma’s Fascinating Theory</div>
+                        
+                        <ul>
+                            <li><a href="index.html">Paradigms</a></li>
+                            <li><a href="languages.html">Languages</a></li>
+                            <li><a href="data-types.html">Data-Types</a></li>
+                            <li><a href="life-cycles.html">Life-cycles</a></li>
+                            <li><a class="active" href="quality.html">Quality</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </nav>
+            </header>
+            
+            <div id="content">
+            
+                <section class="section-5"></section>
+            
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>The Importance of Writing Quality Code</h2>
+                        
+                        <p id="text">In a workplace environment, the majority of projects being developed will be done so in teams composed of many developers. The developers must work in unison to ensure the project is of high-quality, is finished on time, and fulfils every part of the specification laid out by the client. This is where it is important to produce high-quality code; other developers must be able to review your code, meaning they must be able to follow the steps and read what is being executed accurately. There is very little room for error or miscommunication in a workplace environment, so if the code you produce is quite obscure or messy, another developer may find it difficult to follow.</p>
+                        
+                        <p id="text">Additionally, the quality of your code may impact the performance of the program produces. If your code contains a lot of duplicated functions and/or loops that are not being broken properly, this can decrease the efficiency of the program in the long run. Another example can be found when using MySQL in programs, where new connects are constantly being established without the old connections being disconnected. Not only would this mean more concurrent connections with the MySQL database, but the program will also eventually exceed the maximum number of connections MySQL accepts, preventing the program from functioning until it is restarted. </p>
+                        
+                        <p id="text">Modularity is a very powerful tool in programming. Many development languages allow the use of separate methods and classes in their code, particularly in object-oriented programming. Methods and classes contain segments of code which can be called when they are needed, meaning there is less code running at one time, leading to better performance. The use of classes and methods can also mean there is less code in general, as these can be used multiple times rather than having separate code each time the code needs to run. In many object-oriented programs, classes can be utilised in such a way to make segments of code readily toggleable. For instance, if you have two programs which can do the same thing and could potentially override each other, one program could have that code disabled. This could lead to no chance of errors occurring, as well as less code being run.</p>
+                        
+                    </section>
+                    
+                </div>
+                
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>Improving Readability of Code</h2>
+                        
+                        <p id="text">As stated above, one of the most important factors of quality code is its readability. There are many ways developers can improve the readability of this code, here are a few points with examples:</p>
+                        
+                        <ol>
+                            <li id="text"><b>Good documentation</b> – If the program is to be handled by a group of developers and staff, the program should be equipped with detailed documentation as to what the program can do, and where important segments of the program are. This is particularly the case if your program comes equipped with an API, as developers need to understand how to hook into the API successfully. </li>
+                            
+                            <li id="text"><b>Commenting</b> – Comments throughout the code will be a massive help for any developer searching your code for a specific method/task. However, many developers make the mistake of making too many comments and placing them in places where they are not needed. Comments should be placed where any critical processes take place, or where the code is relatively obscure. For example, the names of your methods and classes should reflect the process taking place there, so comments should not be needed stating what this method does when it’s called. An example of unnecessary coding can be found here:</li>
+                            
+                            <div id="img-2">
+                            
+                                <img src="assets/images/bad-comments.jpg" alt="Examples of Bad Comments">
+                                
+                            </div>
+                            <br>
+                            
+                            <li id="text"><b>Neat and consistent layout</b> – The layout of your code is a massive factor when it comes to its readability. If your code is not spaced out at all, developers may find it difficult to know where specific tasks are taking place. On the opposite side of the spectrum, if the code is too spaced out, the same issue may occur. It is also important to ensure the length of lines are limited in your code and instead can be split across multiple lines. This makes it easier to view the code in one window rather than scrolling to see what is occurring.</li>
+                            
+                            <div id="img-2">
+                                
+                                <img src="assets/images/consistent-layout.jpg" alt="Example of Consistent Layout">
+                            
+                            </div>
+                            
+                            <li id="text"><b>Consistent naming scheme</b> – There are two common examples of naming scheme currently; using underscores on word boundaries or using capital letters (example_code and exampleCode). Whilst choosing one is entirely personal preference, attempting to use both in your code can make your program look like a mess. It may also cause issues when someone is attempting to rewrite some of your code, and they expect the variable to be named one thing, and it is another where the difference is that you have used an underscore instead of a capital.</li>
+                            
+                            <div id="img-2">
+                                
+                                <img src="assets/images/consistent-naming.jpg" alt="Examples of Consistent Naming">
+                            
+                            </div>
+                        </ol>
+                        
+                    </section>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <footer>
+            
+            <div id="ft-container">
+                
+                <p>&copy Ryan James Haytree</p>
+            
+            </div>
+        
+        </footer>
+    
+    </body>
+
+</html>

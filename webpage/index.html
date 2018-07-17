@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <title>Thelma’s Fascinating Theory | Paradigms</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+        <script>
+            
+            $(window).on('scroll', function()  {
+                if($(window).scrollTop()) {
+                    $('.nav-content').addClass('black');
+                }
+                else {
+                    $('.nav-content').removeClass('black');
+                }
+            })
+                        
+        </script>
+        
+    </head>
+    
+    <!-- Visible contents of page -->
+    
+    <body>
+    
+        <div id="wrapper">
+        
+            <header>
+                <nav>
+            
+                    <div class="nav-content">
+                    
+                        <div class="logo">Thelma’s Fascinating Theory</div>
+                        
+                        <ul>
+                            <li><a class="active" href="index.html">Paradigms</a></li>
+                            <li><a href="languages.html">Languages</a></li>
+                            <li><a href="data-types.html">Data-Types</a></li>
+                            <li><a href="life-cycles.html">Life-cycles</a></li>
+                            <li><a href="quality.html">Quality</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </nav>
+            </header>
+            
+            <div id="content">
+            
+                <section class="section-1"></section>
+            
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h1>Programming Paradigms</h1>
+            
+                        <h2>Procedural Programming</h2>
+                        
+                        <p id="text">Procedural programming is where a program is developed to follow a specific sequence of steps, forming a linear and sequential application. The order in which the steps are organised is key to the application being successful. Perhaps the easiest programming paradigm, before the program moves onto another step the previous step must be completed. Unlike other programming paradigms, in procedural programming, you state how to create value through the use of functions, instead of declaring a state like in other programming paradigms.</p>
+                        
+                        <p id="text">Whilst many associates the use of functions with procedural programming, this is absolutely incorrect. Other programming languages such as PHP use functions which are used in a very similar fashion to how they’re used in C#. Functions are merely used to run segments of code when called and return a declared variable which can be used later in the program. An example of this can be found in the Wage Calculator project commissioned by the Bank of Ernest.</p>
+                        
+                        <div id="example">
+                        
+                            <img src="assets/images/function.jpg" alt="Functions in Procedural Programming.">
+                            <p>This example shows a function which is calculating the net wage of an employee's wage, and is then returning the value. This function is called in the code above when needed, elimating the need to write this code multiple times throughout the application.</p>
+                            
+                        </div>
+                        
+                        <p id="text">The most noticeable feature of procedural programming is the use of methods to help run code in a set sequence, whereas other programming paradigms would use classes and event-based functions to run code when called from another class or an event taking place.</p>
+                        
+                        <hr>
+                        
+                        <table>
+                        
+                            <td>
+                                
+                                <div id="limitations">
+                            
+                                    <h3>Limitations</h3>
+                        
+                                    <p id="text">Perhaps the largest disadvantage of procedural programming is its age. There have been many additional programming paradigms that have merged the ideas of procedural programming into their architecture, the most popular being object-oriented programming. These newer paradigms have also brought about many other changes that have highlighted the following limitations:</p>
+                        
+                                    <ul>
+                                        <li id="text">Having a large amount of code in a single class can make the project difficult for the developer to read, and thus debug any issues that may arise. Whilst the use of methods, functions and appropriate comments can help this; it does not eliminate the complexity and difficulty of reading the code.</li>
+                                        <li id="text"><p>There are lacking tools for abstraction and modularisation of the code base, meaning the code will become increasingly difficult to understand, and adding new features to the code could have serious consequences on the rest of the program. Whilst the use of new methods does help with this; the developer can still have issues if not handled correctly.</p> 
+                                        <img src="assets/images/methods.jpg" alt="Methods in Procedural Programming."></li>
+                                        <li id="text">A commonly overlooked disadvantage with procedural programming is the possible issues that may arise with incorporating code from another project into a new one. This may cause issues with using code from another developer who has put their project under a license that allows it’s use or copying code from one of your own projects. </li>
+                                    </ul>
+                            
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div id="pros">
+                        
+                                    <h3>Advantages</h3>
+                            
+                                    <p id="text">Despite procedural programming becoming obselete in comparison to the other paradigms, there are still some advantages to using this paradigm in comparison to the alternatives.</p>
+                            
+                                    <ul>
+                                        <li id="text">Very easy to learn, and knowledge can readily be developed further to understand event-based programming and object-oriented programming. This is due to the lack of abstraction and advanced techniques when compared to the alternatives. Learning this paradigm helps the user understand how the machine works, and how a program is executed.</li>
+                                        <li id="text"><p>Procedural programs can often be faster than those developed using alternate paradigms. This is due to less code being called in comparison that the amount caused by object-oriented programs and event-based programs, meaning less RAM and CPU is used, leading to better performance.</p>
+                                        <img src="assets/images/performance-1.jpg" alt="Performance of Procedural Programming"></li>
+                                        <li id="text">Procedural applications, if kept short, can readily be used for creating snapshots of code to be used by students. Whilst this is possible with the other paradigms, procedural code is contained in a single class/interface, so students do not require a large amount of code to see the entire journey the code is travelling as it runs the instructions.</li>
+                                    </ul>
+                            
+                                </div>
+                            
+                            </td>
+                            
+                        </table>
+            
+                    </section>
+                
+                </div>
+                
+                <div id="content-html">
+                    
+                    <section class="content">
+            
+                        <h2>Event Driven Programming</h2>
+                        
+                        <p id="text">Event Driven Programming allows the construction of programmes which execute code based on events occurring. Events are 'actions' which take place on a Graphical User Interface (GUI), the most common example being a button. These events can also be considered conditions, where the code only executes if a specific condition is met. For instance, a car will stop when it is out of petrol. The condition being 'out of petrol' and brake being the event that takes place.</p>
+                        
+                        <p id="text"><b>Event Loop</b> - The event loop is a continuous process which runs in the background of the program instance. This loop will catch an event when one occurs.</p>
+                        
+                        <p id="text"><b>Event Trigger</b> - The event trigger is the event/action  taking place and being listened to in the code. For example, if the user presses the 'submit' button, this pressing of the submit button is the event trigger, as it has caused the click event to fire, for the code to be executed in the program.</p>
+                        
+                        <p id="text"><b>Event Handler</b> - The event handler is the actual code being executed when the event has taken place. When looking at the source code for the program, it will be all code contained within the method associated with that event, which will be run. The example below will submit the contents in all fields to a connected database.</p>
+                        
+                        <p id="text"><b>Graphical User Interface (GUI)</b> - The graphical user interface is the interface where the event takes place. These usually contain fields to be filled and buttons to be presses, all of which can fire an event when can be listened for in the code.</p>
+                        
+                        <div id="example">
+                        
+                            <img src="assets/images/interface.jpg" alt="Interface of an Event Drive Programme">
+                            <p>This example will submit all text within the above fields to a MySQL database upon the submit button being pressed. The pressing of the submit button fires the associated event, which runs the method used to create a MySQL query from the variables saved, and then submit them to the database.</p>
+                            
+                        </div>
+                        
+                        <br>
+                        
+                        <hr>
+                        
+                        <table>
+                        
+                            <td>
+                                
+                                <div id="limitations">
+                            
+                                    <h3>Limitations</h3>
+                        
+                                    <p id="text">Whilst Event-Driven programming is newer than procedural, and as a result seen multiple improvements in it's implimentation, there are many reasons why this paradigm has almost entirely been eclipsed by Object-Oriented Programming</p>
+                                    
+                                    <ul>
+                                        <li id="text"><p>Event-driven programs are typically more resource intensive than their counterparts, due to the process of displaying the graphical user interface and listening for an event to take place.</p>
+                                        <img src="assets/images/performance-2.jpg" alt="Performance of an Event-Drive Program"></li>
+                                        <li id="text">These programs are typically developed into a single class, and the complexity of code may cause issues with reading the code, and/or editing the code if any fixes need to be applied or additions need to be added.</li>
+                                        <li id="text">This paradigm cannot be applied to various applications due to how the code is executed. Until an event occurs and triggers a method, the program is at a complete standstill. Various applications such as video games require the program to run additional code in addition to listening for any events that may occur.</li>
+                                    </ul>
+                            
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div id="pros">
+                        
+                                    <h3>Advantages</h3>
+                            
+                                    <p id="text">Whilst event-driven programming has it's issues, it is a crucial part of software development; particually for students who aspire to work with graphics in their software solution. Events are also a crucial part of any complex software solution, and it would more than likely be expected of a developer to work with such techniques.</p>
+                            
+                                    <ul>
+                                        <li id="text"><p>Provides the ability for the developer to design and develop a graphical user interface without much prior knowledge. The process is reasonably straightforward as long as you understand how to use your IDE (in this case Visual Studio).</p>
+                                        <img src="assets/images/interface-2.jpg" alt="GUI design in Event-Driven Programming"></li>
+                                        <li id="text">This paradigm is crucial for understanding how a computer system functions, and how interfaces can be made dynamic, and run through the use of actions. Whilst this cannot be used to develop advanced video games, it can easily be used as an introduction into this area of software development.</li>
+                                        <li id="text">Developing your knowledge of event-driven programming can later be combined with your knowledge of object-orienting programming, allowing the developer to build some very advanced, and commercial grade software solutions. It is very important that a software developer understands the concepts of this language, as events are a crucial area of software development.</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                            
+                                </div>
+                            
+                            </td>
+                            
+                        </table>
+            
+                    </section>
+                
+                </div>
+                
+                <div id="content-html">
+                    
+                    <section class="content">
+            
+                        <h2>Object-Oriented Programming</h2>
+                        
+                        <p id="text">Object-Oriented Programming is a programming paradigm which revolves around the use of ‘objects’ and ‘classes’. This combination has allowed for easier and more efficient programming, at both the start of the programming process and the maintenance of the program once released.</p>
+                        
+                        <p id="text"><b>Objects</b> - Objects are used in Object-Oriented Programming, very similar to how data and code are used in other programming paradigms. The object consists of two segments; the behaviour (code) and the state (data). Using these enables the code to be very clean, as well as include little code to run a large amount of code.</p>
+                        
+                        <p id="text"><b>Classes</b> - Classes are templates of code which are used to create objects. These classes include code which declares an object’s initial state, and then provide data which creates the behaviour of this object. Classes also work to improve the readability and general quality of the code within the application.</p>
+                        
+                        <div id="example">
+                        
+                            <img src="assets/images/objects-1.jpg" alt="Objects in Object-Oriented Programming">
+                            <p>This example displays the declaring of objects, which can be sued throughout the entire program. Declaring them as public means they can be acessed from outside this class, making the code easy to seperate into 'modules'. the use of 'get' and 'set' make the objects auto-incremental, making new additions to the data easy to store.</p>
+                            
+                        </div>
+                        
+                        <p id="text"></p>
+                        
+                        <hr>
+                        
+                        <table>
+                        
+                            <td>
+                                
+                                <div id="limitations">
+                            
+                                    <h3>Limitations</h3>
+                        
+                                    <p id="text"></p>
+                        
+                                    <ul>
+                                        <li id="text">There is a steep learning curve between this paradigm and procedural programming. The use of objects can be initially difficult to understand and implement into your projects.</li>
+                                        <li id="text">Programs are larger due to the development process involving more lines of code when compared to procedural programs. Whilst this may not seem like a limitation, some files can be very large, requiring a longer download time.</li>
+                                    </ul>
+                            
+                                </div>
+                            </td>
+                            
+                            <td>
+                                <div id="pros">
+                        
+                                    <h3>Advantages</h3>
+                            
+                                    <p id="text"></p>
+                            
+                                    <ul>
+                                        <li id="text">The code is easier to maintain due to the program being modularised. This means code can be updated in a specific class, and it will not need a large number of changes throughout the entire program. </li>
+                                        <li id="text">The quality of the application produced will overall be higher. The reuse of code leads to faster development, enabling the developer to spend more time on developing a higher quality product. </li>
+                                        <li id="text">High-quality code and libraries are readily available for use in your own projects and can be easily integrated into your own projects. Whilst other paradigms also include the use of custom libraries, integrating code is far more difficult to do successfully in the other paradigms.</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                            
+                                </div>
+                            
+                            </td>
+                            
+                        </table>
+            
+                    </section>
+                
+                </div>
+                
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>Suitability of Procedural Programming in Graphical Applications</h2>
+                        
+                        <p id="text">A lot of programs can be developed through procedural programming; however, when developing a graphical application with procedural techniques, there are many limitations. Firstly, graphical programs are completely possible with procedural programming. However, the program must respect the rules in which procedural programming works by – input must be provided in stages. The most common example of a graphical program developed using procedural techniques would be a calculator. </p>
+                        
+                        <p id="text">An experienced developer could possibly do much more than this but would most likely end up developing their own framework, and eventually external events. In which case, the developer would most likely start with event-driven programming. This type of programming lends itself perfectly to graphical user interfaces, as events are used to execute code when an event occurs. I.e. when a button is pressed the program can import all data from fields on the graphic interface into a MySQL query, and then run that MySQL query to insert data into the database. This is not possible with event-based programming as the procedural program cannot easily detect when a button is pressed, or an event takes place in general. The simplest way a procedural program could do this is detected where the mouse is when they click and determining whether it was on top of a button.</p>
+                        
+                        <p id="text">However, the most common and reliable graphical user interfaces come from object-oriented programming. Here, the program can create graphical user interfaces like that of event-driven programming, but the code would be easier to debug and maintain due to the program being modular. In addition to this, the program may eventually evolve into an object-oriented program, so it would be more time efficient to plan the program around being object-oriented. When compared to procedural programming, the procedural program would become increasingly untidy and harder to develop on, as adding new code would become more difficult and tiresome. </p>
+                        
+                        <p id="text">However, if the graphical application did not require much user interaction and would be easy to navigate without the use of clicking on the screen, then procedural programming could be used quite easily for this task. As an example, a graphical application could simply involve navigation a street using the arrows on the keyboard. In which case, procedural programming would be more than fine for this. In fact, plenty of interactive games that run in a command line interface were coding using procedural programming.</p>
+                        
+                        <p id="text">In conclusion, procedural programming could be used to create graphical programs which are relatively simple and do not require much user interaction to function. However, if the application is entirely dependant on user interaction and could be simplified using events, event-based programming would be far more suitable. But if the application is large and could require maintenance in the future, the developer would be wiser to use object-oriented because maintenance is far easier to manage, and the code would be easier to adapt/change without impacting the rest of the application.</p>
+                    
+                    </section>
+                
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        <footer>
+            
+            <div id="ft-container">
+                
+                <p>&copy Ryan James Haytree</p>
+            
+            </div>
+        
+        </footer>
+    
+    </body>
+
+</html>

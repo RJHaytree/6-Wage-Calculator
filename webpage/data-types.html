@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <title>Thelma’s Fascinating Theory | Data Types</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+        <script>
+            
+            $(window).on('scroll', function()  {
+                if($(window).scrollTop()) {
+                    $('.nav-content').addClass('black');
+                }
+                else {
+                    $('.nav-content').removeClass('black');
+                }
+            })
+                        
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <nav>
+            
+                    <div class="nav-content">
+                    
+                        <div class="logo">Thelma’s Fascinating Theory</div>
+                        
+                        <ul>
+                            <li><a href="index.html">Paradigms</a></li>
+                            <li><a href="languages.html">Languages</a></li>
+                            <li><a class="active" href="data-types.html">Data-Types</a></li>
+                            <li><a href="life-cycles.html">Life-cycles</a></li>
+                            <li><a href="quality.html">Quality</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </nav>
+            </header>
+            
+            <div id="content">
+            
+                <section class="section-3"></section>
+            
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>Data Types</h2>
+                        
+                        <p id="text">In programming, data types are a grouping of data which instructs the compiler of how the program intends to use the data which will be stored in that variable. The data types specified dictates what data can be stored in the variables, for both organisation and storage reasons. Large and obscure data-types typically take up a larger amount of storage than small and defined data-types. Many data-types can also be grouped to create new data-types, which allow for more flexibility.</p>
+                        
+                    </section>
+                    
+                </div>
+                
+            </div>
+            
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>Typical Data Types</h2>
+                        
+                        <p id="text"><b>String</b> – The string data type is a sequence of all character types such as letters, numbers, punctuation, spaces and various symbols. Unless declared in your code, this data type does not have a maximum number of characters which can be stored. It does, however, have a minimum amount, 0. For example, ‘This is an example string’ can be stored within a string variable.</p>
+                        
+                        <p id="text"><b>Double</b> - Whilst there are many other data types which can store numbers, double has a benefit over many of them – the magnitudes at which it can store numbers. The range of numbers that double can store spans +/-1.79769313486231570E+308 to +/-4.94065645841246544E-324 for positive and negative values, meaning it can save both incredibly large and incredibly small values. This data type does store the approximate value, unlike the decimal data type.</p>
+                        
+                        <p id="text"><b>Decimal</b> - Similar to double, decimal is a data type which can store numbers. However, a decimal can provide a massive number of ‘significant’ digits, even more than double can hold. The decimal data type can store a maximum of 28 decimal places, and can accurately round numbers, making it very ideal for financial circumstances where rounding is crucial.</p>
+                        
+                        <p id="text"><b>Char</b> - Unlike the above data types, char is a 16-bit character, meaning it can only store a single character at one time. This data type does not involve the use of much storage, in most cases, RAM as the contents of this variable is usually used for selection or very basic calculations. As stated above, some data types have led to the development of others. In this case, varchar is an array of char, allowing for multiple characters to be stored.</p>
+                        
+                    </section>
+                    
+            </div>
+            
+            <div id="content-html">
+                    
+                <section class="content">
+                    
+                    <h2>Benefits of Having a Variety of Data Types</h2>
+                    
+                    <p id="text">The use of multiple data-types is crucial for program development, particularly when doing so professionally. Firstly, each data type reserves a space in memory, which varies between data types. 16-bit data types such as char and short reserves 2 bytes, 32-bit data types such as int reverse 4 bytes, 64-bit data types such as long reserve 8 bytes and lastly Boolean reserves 1bit. Whilst this may not seem of much importance to some, this memory can be crucial to the performance of an application, and the longevity of the machine the program is running on. </p>
+                    
+                    <p id="text">Data types can also be used for validation, to ensure the user is inputting the right data without checking everything. For instance, if you need to check whether a user has attempted to input a string where a number should be present, this could severely damage the program instance, and in a lot of cases stall the program. However, if the input is attempted to parse to a data type which only can hold numbers, this can return a Boolean and throw an exception whenever a letter is inputted. In this case, you would use the TryParse function when developing in C.</p>
+                    
+                    <p id="text">Lastly, developing a single data type or only a handful could make your code more difficult to read, and later maintain. A lot of similar data types in a single application makes it more difficult to understand the type of input inspected and could lead to many issues where the application may stall due to the wrong checks being made, or even crashing.</p>
+                    
+                </section>
+            
+            </div>
+            
+        </div>
+        
+        <footer>
+            
+            <div id="ft-container">
+                
+                <p>&copy Ryan James Haytree</p>
+            
+            </div>
+        
+        </footer>
+    
+    </body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <title>Thelma’s Fascinating Theory | Data Types</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+        <script>
+            
+            $(window).on('scroll', function()  {
+                if($(window).scrollTop()) {
+                    $('.nav-content').addClass('black');
+                }
+                else {
+                    $('.nav-content').removeClass('black');
+                }
+            })
+                        
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <nav>
+            
+                    <div class="nav-content">
+                    
+                        <div class="logo">Thelma’s Fascinating Theory</div>
+                        
+                        <ul>
+                            <li><a href="index.html">Paradigms</a></li>
+                            <li><a class="active" href="languages.html">Languages</a></li>
+                            <li><a href="data-types.html">Data-Types</a></li>
+                            <li><a href="life-cycles.html">Life-cycles</a></li>
+                            <li><a href="quality.html">Quality</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </nav>
+            </header>
+            
+            <div id="content">
+            
+                <section class="section-2"></section>
+            
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>Language Types and How They Differ</h2>
+                        
+                        <h3>Visual Languages</h3>
+                        
+                        <p id="text">A visual language is a programming language which eliminates text-based programming and replaces that process by using elements. Whilst text-based programming such as scripting and object-oriented programming makes you think and process the procedure as a computer does, visual languages allow you to build programs in a way that makes sense to humans. A well-used example of visual language programming can be found in Scratch, which is utilised in schools as a gateway to computer science and programming.</p>
+                        
+                        <p id="text">Scratch is a program which allows its users to program their own interactive games, stories and produce animations. What it does is through an intuitive interface where the user can simply drag-and-drop elements which dictate how the animation takes place. These projects can then be downloaded as a standalone file and ran without the use of the Scratch IDE. This does require the use of Flash, so the program must be used on a device which supports this.</p>
+                        
+                        <p id="text">The general purpose of a visual Language is to introduce more people, particularly children, to the world of programming. From this stage, the user can move on to the other forms of programming and eventually begin to understand how a computer thinks and how this can be utilised in programming.</p>
+                        
+                        <p id="text">A great example of visual programming can be found here, which is called ‘Space Chomp’ created by the user ‘jsh’. This project is readily available on the Scratch website <a href="https://scratch.mit.edu/projects/1735345/">here</a>. </p>
+                        
+                        <div id="img-2">
+                        
+                            <img src="assets/images/visual-scratch.jpg" alt="Scratch Example Video Game">
+                            
+                        </div>
+                        
+                        <h3>Scripting Languages</h3>
+                        
+                        <p id="text">A scripting language is a programming language which supports programs that are automatically executed at runtime. Where they differ greatly from some programming languages is that they do not need to be compiled to be executed. This means the script is interpreted rather than compiled. The more well-known example of a scripting language is JavaScript.</p>
+                        
+                        <p id="text">JavaScript is a scripting language which allows a developer to create content that can dynamically update, control forms of multimedia such as audio and video, or pretty much anything else which can be included in a website. Much like other programming languages, JavaScript can store data by using variables, operate on specific strings of text, and run processes if a certain condition is met. JavaScript is how developers make websites interactive, as this scripting language allows clients to experience animations on a website, one of the most notable being the use of slideshows. Without the use of JavaScript, websites would appear bland to a user whilst navigating, giving the user a negative impression of the website owner.</p>
+                        
+                        <p id="text">Much like other programming languages, JavaScript and other scripting languages can be developed in a simple text editor such as notepad or brackets. The files only need the correct file extension in order to be recognised as a script. In the case of JavaScript, the file must be referenced in the webpage’s head tag, which means the file will be loaded when the webpage is loaded.</p>
+                        
+                        <p id="text">An example of JavaScript can be found below, which dislays a different message depending on your time.</p>
+                        
+                        <div id="example-js">
+                            
+                            <script src="assets/js/welcome.js"></script>
+                        
+                        </div>
+                        
+                        <div id="img-2">
+                        
+                            <img src="assets/images/js-snapshot.jpg" alt="JavaScript Snapshot">
+                            
+                        </div>
+                        
+                        <h3>Markup Languages</h3>
+                        
+                        <p id="text">A markup language is a programming language that uses tags to outline/define elements of a selected document. Unlike many other programming languages, a markup language is readable to people who lack computing experience and does not follow regular programming syntax found within an application or JavaScript script. One of the most common example of a markup language is HTML.</p>
+                        
+                        <p id="text">HTML (HyperText Markup Language) is the markup language used as the backbone of websites. Unlike XML (another popular example), HTML uses predetermined tags which are used to represent the content and structure of a webpage. The most common and easy to utilise examples of HTML tags are the html, head, body, div, p and h1 tags. Each of these tags is used to represent different elements on a webpage, allowing the maximum customisation and control of the webpage. Whilst HTML cannot be used to format the webpage very easily; there are other languages available to do just that, particularly CSS (Cascading Style Sheet).</p>
+                        
+                        <p id="text">HTML can be authored in any text-editor, ranging from notepad to brackets. The file only needs to be saved with the necessary file extension to be registered as an HTML file, and then be displayed by your browser. </p>
+                        
+                        <p id="text">An example of HTML can be found on this very webpage! Here are the barebones of the navigation bar that spans the top of your browser window.</p>
+                        
+                        <div id="img-3">
+                        
+                            <img src="assets/images/nav-bar.jpg" alt="HTML Navigation Bar">
+                            
+                        </div>
+                        
+                    </section>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <footer>
+            
+            <div id="ft-container">
+                
+                <p>&copy Ryan James Haytree</p>
+            
+            </div>
+        
+        </footer>
+    
+    </body>
+
+</html>

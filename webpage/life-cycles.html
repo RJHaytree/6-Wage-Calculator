@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <title>Thelma’s Fascinating Theory | Data Types</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
+        <script>
+            
+            $(window).on('scroll', function()  {
+                if($(window).scrollTop()) {
+                    $('.nav-content').addClass('black');
+                }
+                else {
+                    $('.nav-content').removeClass('black');
+                }
+            })
+                        
+        </script>
+        
+    </head>
+    
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <nav>
+            
+                    <div class="nav-content">
+                    
+                        <div class="logo">Thelma’s Fascinating Theory</div>
+                        
+                        <ul>
+                            <li><a href="index.html">Paradigms</a></li>
+                            <li><a href="languages.html">Languages</a></li>
+                            <li><a href="data-types.html">Data-Types</a></li>
+                            <li><a class="active" href="life-cycles.html">Life-cycles</a></li>
+                            <li><a href="quality.html">Quality</a></li>
+                        </ul>
+                        
+                    </div>
+                    
+                </nav>
+
+            </header>
+            
+            <div id="content">
+            
+                <section class="section-4"></section>
+            
+                <div id="content-html">
+                    
+                    <section class="content">
+                        
+                        <h2>Software Development Life Cycle Model</h2>
+                        
+                        <div class="cycle">
+                        
+                            <img src="assets/images/development-cycle.jpg" alt="Typical Development Life Cycle">
+                            <br>
+                            <p id="caption">A typical waterfall model</p>
+                            
+                        </div>
+                        
+                        <hr>
+                        
+                        <br>
+                        
+                        <h2>The Steps - Expanded</h2>
+                        
+                        <p id="text"><b>1) Requirements</b> - This is where client specifications are communicated to the development team. Project managers and the client must discuss what the program must involve, and these specifications cannot be changed once they are agreed upon. Every aspect of the new system is to be discussed here, ranging from how users are going to input the information/interact with the program, and how data would preferably be stored. Once the requirements are specified, they are analysed. This analysis will discuss whether they can be incorporated into the final product and whether all requirements are valid.</p>
+                        
+                        <p id="text">Once completed, a specification is produced and used as guidelines throughout the development and testing processes.</p>
+                        
+                        <div id="img-1">
+                        
+                            <img src="assets/images/specification.jpg" alt="Example Client Specification">
+                            
+                        </div>
+                        
+                        <p id="text"><b>2) Design</b> - This is where the software design is produced to give a visual or logical representation of what the final product will potentially look like. This can be done through many means, but mind maps and pseudo code are a good way to visualise a process. This process also aids in identifying any hardware or system requirements, where the client may need to update software or hardware components if they are outdated. This process can also be used to discuss the system/software architecture, where the development team can identify how they wish to develop the program, i.e. via procedural programming or object-oriented programming. </p>
+                        
+                        <div id="img-1">
+                        
+                            <img src="assets/images/flow-chart.jpg" alt="Example Flowchart">
+                            
+                        </div>
+                        
+                        <p id="text"><b>3) Coding</b> - This is the actual coding process, where the discussed specifications and design are translated into code. This stage is the focus of the development team, as it will dictate the quality of the final product. Testing can also be done at this stage gradually, to ensure snippets of code are functioning. However, the testing of the final product should be left until the testing stage.</p>
+                        
+                        <div id="img-1">
+                        
+                            <img src="assets/images/code-example.jpg" alt="Example Code">
+                            
+                        </div>
+                        
+                        <p id="text"><b>4) Testing</b> - After the coding process is complete, the program must be tested against the client specifications discussed in the requirement stage. This is done through a meticulous test plan which should cover much of the application and tests every aspect of the specification. This is largely to ensure the client is pleased with the final products, and no incidents may occur when incorporating the application into the actual system.</p>
+                        
+                        <div id="img-1">
+                        
+                            <img src="assets/images/test-log.jpg" alt="Example Test Log">
+                            
+                        </div>
+                        
+                        <p id="text"><b>5) Maintenance</b> - Once the application is tested and any bugs have been resolved, the program is then installed and setup on the machine. Once this is completed, the development team will continue to offer support for the application if any issues arise. This does not offer any new add-ons, which would require a new program/development process altogether.</p>
+                        
+                    </section>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <footer>
+            
+            <div id="ft-container">
+                
+                <p>&copy Ryan James Haytree</p>
+            
+            </div>
+        
+        </footer>
+    
+    </body>
+
+</html>

@@ -1,0 +1,28 @@
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe.config
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.pdb
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\bin\Debug\MySql.Data.dll
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csprojResolveAssemblyReference.cache
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csproj.CoreCompileInputs.cache
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csproj.CopyComplete
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.exe
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.pdb
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe.config
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.pdb
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csprojResolveAssemblyReference.cache
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csproj.CoreCompileInputs.cache
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.exe
+I:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.pdb
+D:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe.config
+D:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe
+D:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.pdb
+D:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csprojResolveAssemblyReference.cache
+D:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.exe
+D:\Software Development\6 - Software Design and Development\Assignment\Application\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.pdb
+D:\Software Development\6 - Software Design and Development\Assignment\Assignment 1 [Unit 6 and Unit 16] Ryan James Haytree\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe.config
+D:\Software Development\6 - Software Design and Development\Assignment\Assignment 1 [Unit 6 and Unit 16] Ryan James Haytree\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.exe
+D:\Software Development\6 - Software Design and Development\Assignment\Assignment 1 [Unit 6 and Unit 16] Ryan James Haytree\Wage Calculator\Wage Calculator\bin\Debug\Wage Calculator.pdb
+D:\Software Development\6 - Software Design and Development\Assignment\Assignment 1 [Unit 6 and Unit 16] Ryan James Haytree\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.csprojResolveAssemblyReference.cache
+D:\Software Development\6 - Software Design and Development\Assignment\Assignment 1 [Unit 6 and Unit 16] Ryan James Haytree\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.exe
+D:\Software Development\6 - Software Design and Development\Assignment\Assignment 1 [Unit 6 and Unit 16] Ryan James Haytree\Wage Calculator\Wage Calculator\obj\Debug\Wage Calculator.pdb
